@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* common css */
+.b-1{
+    border: 1px solid #489e4c;
+}
+.primary-color{
+    color: #4E47FF;
+}
+
+.btn{
+    color: #FFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #ecf025;
+    color: #000;
+    transform: translateY(-2px);
+}
+/* header section start */
+header{
+    background: url(../images/Hero-bg.png) no-repeat center center/cover;
+}
+.navbar{
+    margin: 0 auto;
+    margin-bottom: 158px;
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.navbar h1{
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+
+.banner{
+    text-align: center;
+    width: 808px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+.banner h1{
+    color: #252432;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+/* header section end */
+
+
+/* action section start */
+.action{
+    width: 1140px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-contant{
+    width: 45%;
+    
+}
+.action-contant h1{
+    color: #252432;
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.action-contant p{
+    margin: 23px 0px;
+    color: rgba(37, 36, 50, 0.50);
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.action-photo img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* action section end */
+
+/* productive section start  */
+.productive{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 80px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+}
+.productive-title{
+    margin-bottom: 50px;
+}
+.productive-title h1{
+    color: #252432;
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+}
+.productive-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item h1{
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+}
+.item p{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* productive section start  */
+
+/* review section start */
+.review{
+    width: 1140px;
+    margin: 100px auto;
+
+}
+.review h3{
+    color: #252432;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.review-items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.review-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background: #FFFFFF80;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+    
+}
+.review-item img.star{
+    width: 20px;
+    height: 20px;
+}
+.review-item h4{
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+}
+
+.review-item-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.review-item-info img{
+    border-radius: 50%;
+}
+
+.reviewer-details h6{
+    color:#757575 ;
+    font-family: Inter;
+    font-size:16px;
+    font-weight:600;
+
+}
+.reviewer-details p{
+    color: #B3B3B3 ;
+    font-family: Inter;
+    font-size:16px;
+    font-weight:400;
+}
+/* review section end */
+
+/* contact form start */
+.contact-section {
+    width: 1140px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 70px 0;
+}
+
+.contact-left {
+    width: 50%;
+}
+
+.contact-left h1 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 97px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.contact-right {
+    width: 50%;
+}
+
+.contact-form label {
+    display: block;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 20px 32px;
+    margin-bottom: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #c9580d;
+}
+
+
+/* footer section start */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 104px 455px 103px 454px;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.footer-content h1{
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 900;
+}
+.footer-content p{
+    color: #8987A1;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.footer-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #8987A1;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* footer section end */
