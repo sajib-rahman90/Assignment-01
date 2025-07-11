@@ -37,6 +37,7 @@ body{
 }
 /* header section start */
 header{
+    height: 698px;
     background: url(../images/Hero-bg.png) no-repeat center center/cover;
 }
 .navbar{
@@ -294,8 +295,13 @@ header{
 /* footer section start */
 .footer{
     width: 100%;
+    margin: 0 auto;
     text-align: center;
-    padding: 104px 455px 103px 454px;
+    padding: 105px 455px 105px 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-top: 1px solid rgba(0, 0, 0, 0.10);
     background: #FFF;
 }
